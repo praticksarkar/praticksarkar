@@ -5,16 +5,16 @@
    ============================================================ */
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Source+Serif+4:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
 :root{
-  --bg:        #eef1f4;
-  --bg-alt:    #e4e9ed;
-  --bg-raised: #dde4e9;
-  --text:      #16324c;
-  --text-dim:  #4f6b80;
-  --text-faint:#8ba1b0;
-  --gold:      #b8842e;
-  --gold-dim:  #8f6620;
-  --violet:    #3f7d8c;
-  --rule:      #c9d3da;
+  --bg:        #0a0c10;
+  --bg-alt:    #10131a;
+  --bg-raised: #151922;
+  --text:      #ece8e0;
+  --text-dim:  #8b93a0;
+  --text-faint:#5a616f;
+  --gold:      #d4a954;
+  --gold-dim:  #8a7038;
+  --violet:    #7a6fa8;
+  --rule:      #232833;
 
   --font-display: 'Fraunces', serif;
   --font-body:    'Source Serif 4', serif;

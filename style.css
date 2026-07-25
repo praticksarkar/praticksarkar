@@ -58,7 +58,7 @@ h3{ font-size:1.15rem; }
 
 header.site{
   position:sticky; top:0; z-index:20;
-  background:rgba(238,241,244,.86);
+  background:rgba(10,12,16,.86);
   backdrop-filter:blur(8px);
   border-bottom:1px solid var(--rule);
 }

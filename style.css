@@ -169,3 +169,17 @@ section:first-of-type{ border-top:none; }
 @media (prefers-reduced-motion: reduce){
   .ring-field .spin{ animation:none !important; }
 }
+
+.gallery{
+  display:grid; grid-template-columns:repeat(3,1fr); gap:18px;
+  margin-top:8px;
+}
+@media (max-width:720px){ .gallery{ grid-template-columns:1fr; } }
+.gallery figure{ margin:0; }
+.gallery img{
+  width:100%; display:block; border:1px solid var(--rule); background:var(--bg-alt);
+}
+.gallery figcaption{
+  margin-top:8px; font-family:var(--font-mono); font-size:.75rem;
+  color:var(--text-faint); line-height:1.4;
+}
